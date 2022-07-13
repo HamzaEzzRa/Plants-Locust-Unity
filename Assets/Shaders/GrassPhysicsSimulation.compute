@@ -1,0 +1,68 @@
+﻿#pragma enable_d3d11_debug_symbols
+#pragma kernel UpdateTrample
+#include "TexturePackingUtils.cginc"
+
+struct Trampler
+{
+    float2 pos;
+    float2 moveDir;
+};
+
+RWTexture2D<float4> Result;
+RWStructuredBuffer<float4> trampleBuffer;
+RWStructuredBuffer<Trampler> tramplerObjects;
+
+float trampleCutoff;
+float elasticity;
+float width;
+float height;
+
+const float PI = 3.14159265f;
+
+[numthreads(8, 8, 1)]
+void UpdateTrample(uint3 id : SV_DispatchThreadID)
+{
+
+    // Get the current color from the buffer
+    float4 currentTrample = trampleBuffer[width * id.x + id.y];
+
+    for (uint i = 0; i < tramplerObjects.Length; i++)
+    {
+        float2 trample;
+
+        // Vector from the trample point to the pixel.
+        float2 deltaPos = tramplerObjects[i].pos - float2(id.x / width, id.y / height);
+
+        // Cut off all values outside the trampleCutoff range.
+        float shouldBeTramepled = step(length(deltaPos), trampleCutoff);
+
+        // Smooth out the trample amount within the trampleCutoff range.  
+        float distanceFactor = 1 - smoothstep(0, trampleCutoff, length(deltaPos));
+
+        // Cut off all values behind the trampler (grass behind should not bend backwards).
+        float directionFactor = step(0, dot(deltaPos, normalize(tramplerObjects[i].moveDir)));
+
+        // Sum up the trample amount for the position.
+        trample = normalize(deltaPos);
+        trample *= directionFactor;
+        trample *= shouldBeTramepled;
+        trample *= distanceFactor;
+
+        // Update the value from the buffer
+        currentTrample = float4(clamp(currentTrample.x + trample.x, -1, 1), sin(PI * 0.5 * clamp(currentTrample.y - length(trample), -1, 0)), clamp(currentTrample.z + trample.y, -1, 1), 0);
+    }
+
+
+    // Pack the values and set them in the texture.
+    float4 currentTramplePacked = PackFloat4(currentTrample);
+
+    // Write the value to the result texture
+    Result[id.xy] = currentTramplePacked;
+
+    // Spring back the grass
+    currentTrample /= (1.0 + elasticity);
+
+    // Save it in the buffer again
+    trampleBuffer[width * id.x + id.y] = currentTrample;
+
+}

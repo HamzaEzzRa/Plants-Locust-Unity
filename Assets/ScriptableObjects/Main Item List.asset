@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db0c04faf57bb940b52457dc0fefe9e, type: 3}
+  m_Name: Main Item List
+  m_EditorClassIdentifier: 
+  itemList:
+  - id: 10000
+    type: 1
+    name: Fire Plant Seed
+    description: 
+    sprite: {fileID: 0}
+    prefab: {fileID: 0}
+    tileType: 5
+    buyPrice: 100
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10001
+    type: 1
+    name: Grenade Plant Seed
+    description: 
+    sprite: {fileID: 0}
+    prefab: {fileID: 0}
+    tileType: 6
+    buyPrice: 100
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10002
+    type: 1
+    name: Poison Plant Seed
+    description: 
+    sprite: {fileID: 0}
+    prefab: {fileID: 0}
+    tileType: 7
+    buyPrice: 100
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10003
+    type: 1
+    name: Carrot Seed
+    description: 
+    sprite: {fileID: 21300000, guid: fae3c37df59e80347952afad42c9d641, type: 3}
+    prefab: {fileID: 6165352699596632073, guid: 24b12bc4653c97c4fa8999756714cd03,
+      type: 3}
+    tileType: 10
+    buyPrice: 50
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10004
+    type: 2
+    name: Wood Axe
+    description: 
+    sprite: {fileID: 21300000, guid: 6702577dc9d48e54f8edbf2e1c28c483, type: 3}
+    prefab: {fileID: 5121108163352541523, guid: 0b1d07128b37b944280ae80c6405b25e,
+      type: 3}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10005
+    type: 2
+    name: Watering Can
+    description: 
+    sprite: {fileID: 0}
+    prefab: {fileID: 0}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10006
+    type: 2
+    name: Hoe
+    description: 
+    sprite: {fileID: 21300000, guid: c73f23de73650f74d80f79d309bd4e16, type: 3}
+    prefab: {fileID: 3425950112560455365, guid: 7471c5777e7deb447a256d30613b17ae,
+      type: 3}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10007
+    type: 2
+    name: Sickle
+    description: 
+    sprite: {fileID: 21300000, guid: 9140ed0402571594e8bede24a120b7d2, type: 3}
+    prefab: {fileID: 2815187069990978510, guid: ecd39a90867f0db4682d3fe7b9973877,
+      type: 3}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10008
+    type: 2
+    name: Shotgun
+    description: 
+    sprite: {fileID: 21300000, guid: 63c5b47b9b47d8641b4a59ad3aee83f3, type: 3}
+    prefab: {fileID: 3218508325351341351, guid: 48a2e363ecb4caa45a06a80fb00cf417,
+      type: 3}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 0
+    isPickable: 1
+    isDropable: 1
+  - id: 10009
+    type: 3
+    name: Log
+    description: 
+    sprite: {fileID: 21300000, guid: b5dfed6f7ad05ab4294cbbe1c981d6e7, type: 3}
+    prefab: {fileID: 2710399889415682735, guid: 6eadb222f5573174e8105a93ab0d02eb,
+      type: 3}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 5
+    isPickable: 1
+    isDropable: 1
+  - id: 10010
+    type: 3
+    name: Carrot
+    description: 
+    sprite: {fileID: 21300000, guid: 86d97e5558f826747967604713c44103, type: 3}
+    prefab: {fileID: 5664608883581972291, guid: 3adf885d617db2d48ac34adcf97c9616,
+      type: 3}
+    tileType: 0
+    buyPrice: 0
+    sellPrice: 30
+    isPickable: 1
+    isDropable: 1

@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shotgun_Hold
+  m_Mask: 00000000000000000000000000000000000000000100000001000000010000000100000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Hat
+    m_Weight: 0
+  - m_Path: Armature/Hat/Hat_end
+    m_Weight: 0
+  - m_Path: Armature/Root
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.L/Foot_Roll.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.L/Foot_Roll.L/Leg_IK.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.L/Foot_Roll.L/Leg_IK.L/Leg_IK.L_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.L/Toes_Control.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.L/Toes_Control.L/Toes_Control.L_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.R/Foot_Roll.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.R/Foot_Roll.R/Leg_IK.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.R/Foot_Roll.R/Leg_IK.R/Leg_IK.R_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.R/Toes_Control.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_Control.R/Toes_Control.R/Toes_Control.R_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_PT.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_PT.L/Leg_PT.L_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_PT.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Leg_PT.R/Leg_PT.R_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Torso
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Torso/Neck
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Torso/Neck/Head
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Torso/Neck/Head/Head_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger01.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger01.L/Finger01.L_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger02.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger02.L/Finger02.L_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger03.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger03.L/Finger03.L_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger04.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Finger04.L/Finger04.L_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Hand_Hold.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Hand_Hold.L/Hand_Hold.L_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Thumb.L
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.L/Lower_ Arm.L/Wrist.L/Hand.L/Thumb.L/Thumb.L_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger01.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger01.R/Finger01.R_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger02.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger02.R/Finger02.R_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger03.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger03.R/Finger03.R_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger04.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Finger04.R/Finger04.R_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Hand_Hold.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Hand_Hold.R/Hand_Hold.R_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Hand_Hold.R/Shotgun
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Hand_Hold.R/Wood_Axe
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Thumb.R
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Torso/Upper_Arm.R/Lower_ Arm.R/Wrist.R/Hand.R/Thumb.R/Thumb.R_end
+    m_Weight: 1
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.L/Lower_Leg.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.L/Lower_Leg.L/Foot.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.L/Lower_Leg.L/Foot.L/Toes.L
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.L/Lower_Leg.L/Foot.L/Toes.L/Toes.L_end
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.R/Lower_Leg.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.R/Lower_Leg.R/Foot.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.R/Lower_Leg.R/Foot.R/Toes.R
+    m_Weight: 0
+  - m_Path: Armature/Root/Lower_Body/Upper_Leg.R/Lower_Leg.R/Foot.R/Toes.R/Toes.R_end
+    m_Weight: 0
+  - m_Path: Body_Alt
+    m_Weight: 0

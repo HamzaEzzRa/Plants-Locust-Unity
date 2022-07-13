@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acee4715cc165bd4c85b6727ee1df8c4, type: 3}
+  m_Name: Main Tile Content Factory
+  m_EditorClassIdentifier: 
+  pathPrefab: {fileID: 6867073786355050621, guid: 430d310bc4164e64fb8c03143dd8f571,
+    type: 3}
+  destinationPrefab: {fileID: 5133440642433787600, guid: 920bbdd986079be47bbcc22f78f2a58c,
+    type: 3}
+  treePrefab: {fileID: 8108458346162508730, guid: 45d10831374b5f84c97e426099e7f6b0,
+    type: 3}
+  cropPrefab: {fileID: 5009200918279004541, guid: 4f5d340dc3208e54f969477f798c5092,
+    type: 3}
+  spawnPrefab: {fileID: 3341589296057731680, guid: 685064c7c51e27e4f9b82afd724d6469,
+    type: 3}
+  emptyPrefab: {fileID: 987479413454710995, guid: 10483f1126553bf42881cf60cf3c0d77,
+    type: 3}
+  carrotSeedPrefab: {fileID: 7349060287659204730, guid: 6cfd07947cac5ec4a930833967595dd0,
+    type: 3}
+  firePlantPrefab: {fileID: 4585129341900782093, guid: 78eb37f52bda93b419f72a1abd3d4c79,
+    type: 3}
+  grenadePlantPrefab: {fileID: 1796943374143223171, guid: 50a725504e495ba4a8d90ff1bcd0c1d0,
+    type: 3}
+  poisonPlantPrefab: {fileID: 1328017976613201594, guid: c35cf3b60b1ecb84ab3655d560da85ea,
+    type: 3}
